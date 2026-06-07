@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>아침 브리핑</title>
+    <link>https://rhewkw.github.io/morning-brief-feed</link>
+    <language>ko</language>
+    <description>매일 아침, 미 증시 마감·거시경제·국내 시황·주요 뉴스를 정리한 오디오 브리핑.</description>
+    <itunes:author>Morning Brief</itunes:author>
+    <itunes:summary>매일 아침, 미 증시 마감·거시경제·국내 시황·주요 뉴스를 정리한 오디오 브리핑.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Morning Brief</itunes:name>
+    </itunes:owner>
+    <itunes:image href="https://rhewkw.github.io/morning-brief-feed/cover.jpg"/>
+    <itunes:category text="News"/>
+    <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>아침 브리핑 시작 안내 (샘플)</title>
+      <description>내일부터 매일 아침 30분 맞춤 브리핑이 시작됩니다.</description>
+      <itunes:summary>내일부터 매일 아침 30분 맞춤 브리핑이 시작됩니다.</itunes:summary>
+      <pubDate>Mon, 08 Jun 2026 06:00:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-08.mp3" length="381744" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-06-08</guid>
+      <itunes:duration>01:04</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
