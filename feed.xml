@@ -14,6 +14,16 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>[아침] 미국 반등·반도체 회복·중동 완화 — 어제 검은 월요일 딛고</title>
+      <description>간밤 미 증시 반등(마이크론 +10%, 중동 긴장 완화). 어제 코스피 검은 월요일 -8.29% 딛고 오늘 반등 시도 관건. CPI 6/10 분수령. 엔비디아-LG 협력. 약 14분.</description>
+      <itunes:summary>간밤 미 증시 반등(마이크론 +10%, 중동 긴장 완화). 어제 코스피 검은 월요일 -8.29% 딛고 오늘 반등 시도 관건. CPI 6/10 분수령. 엔비디아-LG 협력. 약 14분.</itunes:summary>
+      <pubDate>Tue, 09 Jun 2026 06:50:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-09.mp3" length="5188464" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-06-09</guid>
+      <itunes:duration>14:25</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>[마감] 검은 월요일 — 코스피 -8.3%·코스닥 -9%·서킷브레이커</title>
       <description>글로벌 반도체 투매+금리 우려에 코스피 -8.29%·코스닥 -9.08%, 양대 서킷브레이커 발동. 외국인 매도·기관 2조 순매수. 젠슨황 방한·추경. CPI 6/10 분수령. 약 8분.</description>
       <itunes:summary>글로벌 반도체 투매+금리 우려에 코스피 -8.29%·코스닥 -9.08%, 양대 서킷브레이커 발동. 외국인 매도·기관 2조 순매수. 젠슨황 방한·추경. CPI 6/10 분수령. 약 8분.</itunes:summary>
