@@ -14,13 +14,13 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
-      <title>[아침] 미국 반등·반도체 회복·중동 완화 — 어제 검은 월요일 딛고</title>
-      <description>간밤 미 증시 반등(마이크론 +10%, 중동 긴장 완화). 어제 코스피 검은 월요일 -8.29% 딛고 오늘 반등 시도 관건. CPI 6/10 분수령. 엔비디아-LG 협력. 약 14분.</description>
-      <itunes:summary>간밤 미 증시 반등(마이크론 +10%, 중동 긴장 완화). 어제 코스피 검은 월요일 -8.29% 딛고 오늘 반등 시도 관건. CPI 6/10 분수령. 엔비디아-LG 협력. 약 14분.</itunes:summary>
+      <title>[아침] 코스피 블랙먼데이 후 미 반도체 반등 — 오늘 회복 관건</title>
+      <description>브로드컴 쇼크로 코스피 8.29% 폭락 및 서킷브레이커 발동, 미국 증시는 나스닥 0.86% 소폭 반등. 이재명 대통령 유럽·G7 순방 출발, 젠슨 황 방한 마무리 및 삼성·SK하이닉스 HBM4 협의.</description>
+      <itunes:summary>브로드컴 쇼크로 코스피 8.29% 폭락 및 서킷브레이커 발동, 미국 증시는 나스닥 0.86% 소폭 반등. 이재명 대통령 유럽·G7 순방 출발, 젠슨 황 방한 마무리 및 삼성·SK하이닉스 HBM4 협의.</itunes:summary>
       <pubDate>Tue, 09 Jun 2026 06:50:00 +0900</pubDate>
-      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-09.mp3" length="5188464" type="audio/mpeg"/>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-09.mp3" length="4306464" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-06-09</guid>
-      <itunes:duration>14:25</itunes:duration>
+      <itunes:duration>11:58</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
