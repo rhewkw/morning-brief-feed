@@ -4,15 +4,25 @@
     <title>데일리 브리핑</title>
     <link>https://rhewkw.github.io/morning-brief-feed</link>
     <language>ko</language>
-    <description>매일 아침·오후, 미 증시·국내 증시 마감과 국내외 주요 뉴스를 정리한 오디오 브리핑.</description>
+    <description>매일 아침, 미 증시 마감·거시경제·국내 시황·국내외 주요 뉴스를 정리한 오디오 브리핑.</description>
     <itunes:author>Daily Brief</itunes:author>
-    <itunes:summary>매일 아침·오후, 미 증시·국내 증시 마감과 국내외 주요 뉴스를 정리한 오디오 브리핑.</itunes:summary>
+    <itunes:summary>매일 아침, 미 증시 마감·거시경제·국내 시황·국내외 주요 뉴스를 정리한 오디오 브리핑.</itunes:summary>
     <itunes:owner>
       <itunes:name>Daily Brief</itunes:name>
     </itunes:owner>
     <itunes:image href="https://rhewkw.github.io/morning-brief-feed/cover.jpg"/>
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>[아침] 트럼프 이란 공습 취소·협상 타결에 뉴욕 급등, 유가 4% 폭락</title>
+      <description>트럼프 대통령 이란 공습 취소·협상 타결 선언으로 다우 +930pt 급등. 오월 미국 소비자물가 +4.2% 에너지 급등 주도, 다음주 연준 FOMC 금리 동결 예상. 코스피 어제 장중 7400 붕괴 후 반등 +0.43%, 오늘 강세 개장 기대.</description>
+      <itunes:summary>트럼프 대통령 이란 공습 취소·협상 타결 선언으로 다우 +930pt 급등. 오월 미국 소비자물가 +4.2% 에너지 급등 주도, 다음주 연준 FOMC 금리 동결 예상. 코스피 어제 장중 7400 붕괴 후 반등 +0.43%, 오늘 강세 개장 기대.</itunes:summary>
+      <pubDate>Fri, 12 Jun 2026 06:50:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-12.mp3" length="2433408" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-06-12</guid>
+      <itunes:duration>06:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>[아침] 이란 재공격 위협에 미 증시·코스피 동반 급락, 방첩사 해체</title>
       <description>트럼프 이란 추가 타격 위협으로 다우 -953p·코스피 -4.52% 폭락, SK하이닉스 -9.9% 쇼크. 방첩사 49년 만에 해체, 이재명 2기 인선 착수. 스트라드비젼·빅웨이브로보틱스 IPO 수요예측 진행 중.</description>
