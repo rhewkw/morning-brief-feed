@@ -1,0 +1,22 @@
+{
+  "podcast": {
+    "title": "데일리 브리핑",
+    "author": "Daily Brief",
+    "description": "매일 아침, 미 증시 마감·거시경제·국내 시황·국내외 주요 뉴스를 정리한 오디오 브리핑.",
+    "language": "ko",
+    "siteUrl": "https://rhewkw.github.io/morning-brief-feed",
+    "feedUrl": "https://rhewkw.github.io/morning-brief-feed/feed.xml",
+    "episodeBaseUrl": "https://rhewkw.github.io/morning-brief-feed/episodes",
+    "imageUrl": "https://rhewkw.github.io/morning-brief-feed/cover.jpg",
+    "keepEpisodes": 60
+  },
+  "audio": {
+    "voice": "ko-KR-SunHiNeural",
+    "rate": "+10%",
+    "pitch": "+0Hz",
+    "format": "audio-24khz-48kbitrate-mono-mp3",
+    "openaiModel": "tts-1",
+    "openaiVoice": "nova",
+    "googleVoice": "ko-KR-Chirp3-HD-Leda"
+  }
+}
