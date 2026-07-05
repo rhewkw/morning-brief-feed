@@ -14,6 +14,16 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>[아침] 다우 사상 최고치, 코스피는 브이자 급등락</title>
+      <description>다우 사상최고 vs 나스닥 반도체약세, 코스피 브이자 급등락(-7.89%→+5.76%), 연준 매파적 동결.</description>
+      <itunes:summary>다우 사상최고 vs 나스닥 반도체약세, 코스피 브이자 급등락(-7.89%→+5.76%), 연준 매파적 동결.</itunes:summary>
+      <pubDate>Mon, 06 Jul 2026 06:30:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-07-06.mp3" length="6006720" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-07-06</guid>
+      <itunes:duration>16:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>[아침] 반도체발 코스피 롤러코스터, 美 증시는 신고가</title>
       <description>美 다우 사상 최고치·나스닥 약세, 6월 고용쇼크로 금리인상 기대 후퇴. 코스피는 SK하이닉스 시총 1위 등극 이후 3거래일 연속 급락(7/2 -7.89%). 테일러메이드 매각·벤처투자 제도개편·코스닥 IPO 4社 청약 소식까지.</description>
       <itunes:summary>美 다우 사상 최고치·나스닥 약세, 6월 고용쇼크로 금리인상 기대 후퇴. 코스피는 SK하이닉스 시총 1위 등극 이후 3거래일 연속 급락(7/2 -7.89%). 테일러메이드 매각·벤처투자 제도개편·코스닥 IPO 4社 청약 소식까지.</itunes:summary>
