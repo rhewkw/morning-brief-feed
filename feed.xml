@@ -14,6 +14,16 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>[아침] 뉴욕 반도체·AI주 재조정에 주간 하락, 코스피는 제헌절 지나 SK하이닉스 실적 대기</title>
+      <description>美 3대지수 나란히 주간 하락(다우 -0.77%·S&amp;P -1.01%·나스닥 -1.4%), 반도체 조정+중동 리스크로 유가 급등. 코스피 목요일 6.37%↓ 6820선, 제헌절 휴장 후 재개장. 7/24 SK하이닉스 실적·관세 시한·HLG지노믹스 상장 겹친 슈퍼위크.</description>
+      <itunes:summary>美 3대지수 나란히 주간 하락(다우 -0.77%·S&amp;P -1.01%·나스닥 -1.4%), 반도체 조정+중동 리스크로 유가 급등. 코스피 목요일 6.37%↓ 6820선, 제헌절 휴장 후 재개장. 7/24 SK하이닉스 실적·관세 시한·HLG지노믹스 상장 겹친 슈퍼위크.</itunes:summary>
+      <pubDate>Mon, 20 Jul 2026 06:30:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-07-20.mp3" length="5959008" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-07-20</guid>
+      <itunes:duration>16:33</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>[아침] 반도체 급락에 코스피 6.37%↓, 美 CPI 서프라이즈로 금리인하 기대</title>
       <description>코스피 6.37%·코스닥 4.53% 급락(中 CXMT 상장+CoreWeave 메모리헤지) | 美 6월 CPI 서프라이즈 둔화로 금리인하 기대 상승, 트럼프 관세 7/24 시한 임박 | 메리츠-고려아연 지분 인수, HLG지노믹스 청약 667:1 흥행</description>
       <itunes:summary>코스피 6.37%·코스닥 4.53% 급락(中 CXMT 상장+CoreWeave 메모리헤지) | 美 6월 CPI 서프라이즈 둔화로 금리인하 기대 상승, 트럼프 관세 7/24 시한 임박 | 메리츠-고려아연 지분 인수, HLG지노믹스 청약 667:1 흥행</itunes:summary>
