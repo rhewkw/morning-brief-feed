@@ -14,6 +14,16 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>[아침] 코스피 나흘만의 반등 6,755선, SK하이닉스 목요일 실적·FOMC 겹친 슈퍼위크 이틀째</title>
+      <description>코스피 +0.97%(6755.75)·코스닥 +2.22%(764.86), 전일 급락분 만회하며 반등 마감. 목요일 SK하이닉스·수요일 삼성전자 실적 슈퍼위크, 테일러메이드 4.4조 매각 실사 착수. 케이앤에스아이앤씨 수요예측 진행중, 하반기 IPO 시장 회복 조짐.</description>
+      <itunes:summary>코스피 +0.97%(6755.75)·코스닥 +2.22%(764.86), 전일 급락분 만회하며 반등 마감. 목요일 SK하이닉스·수요일 삼성전자 실적 슈퍼위크, 테일러메이드 4.4조 매각 실사 착수. 케이앤에스아이앤씨 수요예측 진행중, 하반기 IPO 시장 회복 조짐.</itunes:summary>
+      <pubDate>Tue, 28 Jul 2026 06:30:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-07-28.mp3" length="2804064" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-07-28</guid>
+      <itunes:duration>07:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>[아침] 미 반도체 조정·중동 정세에 코스피 5.72%↓ 6690선, 삼성전자·SK하이닉스 실적 슈퍼위크</title>
       <description>코스피 -5.72%(6690.62)·코스닥 -5.32%(748.22), 미 반도체 조정과 중동 정세 겹친 검은 금요일. 삼성바이오로직스 폴리펩타이드 2.7조 인수, 가비아 공개매수 주주 반발 지속, MBK 테일러메이드 재입찰. 이번주 SK하이닉스·삼성전자 실적과 FOMC 겹친 슈퍼위크.</description>
       <itunes:summary>코스피 -5.72%(6690.62)·코스닥 -5.32%(748.22), 미 반도체 조정과 중동 정세 겹친 검은 금요일. 삼성바이오로직스 폴리펩타이드 2.7조 인수, 가비아 공개매수 주주 반발 지속, MBK 테일러메이드 재입찰. 이번주 SK하이닉스·삼성전자 실적과 FOMC 겹친 슈퍼위크.</itunes:summary>
