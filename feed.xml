@@ -14,6 +14,16 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>[아침] 美·이란 호르무즈 재충돌에 유가·금리 급등, 코스피는 자사주로 6835 사수</title>
+      <description>미국-이란 무력충돌 재점화로 국제유가·미 국채금리 급등, 다우·나스닥 동반 하락. 코스피는 삼성전자·SK하이닉스 자사주 매입 힘으로 하락분 만회하며 6,835선 방어, 코스닥은 이차전지·바이오 차익매물에 1.56% 하락. SK실트론 2.3조원 두산 매각·롯데렌탈 TPG 매각 공정위 승인 등 M&amp;A 빅딜도 잇따랐습니다.</description>
+      <itunes:summary>미국-이란 무력충돌 재점화로 국제유가·미 국채금리 급등, 다우·나스닥 동반 하락. 코스피는 삼성전자·SK하이닉스 자사주 매입 힘으로 하락분 만회하며 6,835선 방어, 코스닥은 이차전지·바이오 차익매물에 1.56% 하락. SK실트론 2.3조원 두산 매각·롯데렌탈 TPG 매각 공정위 승인 등 M&amp;A 빅딜도 잇따랐습니다.</itunes:summary>
+      <pubDate>Wed, 02 Sep 2026 06:30:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-09-02.mp3" length="2488128" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-02</guid>
+      <itunes:duration>06:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>[아침] 미 국채금리 13개월래 최고·유가 급등 속, 코스피는 자사주 매입으로 6820 사수</title>
       <description>미 10년물 금리 4.75%·이란 호르무즈 리스크로 유가 급등, 코스피는 삼성전자·SK하이닉스 자사주 매입 힘으로 반등 마감. 롯데렌탈 재매각 무산, 맥쿼리PE·CVC 케이뷰티 베팅, 코스닥 IPO 훈풍.</description>
       <itunes:summary>미 10년물 금리 4.75%·이란 호르무즈 리스크로 유가 급등, 코스피는 삼성전자·SK하이닉스 자사주 매입 힘으로 반등 마감. 롯데렌탈 재매각 무산, 맥쿼리PE·CVC 케이뷰티 베팅, 코스닥 IPO 훈풍.</itunes:summary>
@@ -601,16 +611,6 @@
       <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-08-pm.mp3" length="2944656" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-06-08-pm</guid>
       <itunes:duration>08:11</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>6/8 검은 금요일 — 반도체 급락·이란發 고유가·젠슨황 방한</title>
-      <description>미 증시 검은 금요일(SOX -10.3%), 코스피 -5.54%(역내 최대), 강한 고용+이란전쟁 고유가로 금리 인상 우려, 6·3 지방선거 민주 압승, 26.2조 전쟁 추경, 젠슨 황 방한. 약 23분.</description>
-      <itunes:summary>미 증시 검은 금요일(SOX -10.3%), 코스피 -5.54%(역내 최대), 강한 고용+이란전쟁 고유가로 금리 인상 우려, 6·3 지방선거 민주 압승, 26.2조 전쟁 추경, 젠슨 황 방한. 약 23분.</itunes:summary>
-      <pubDate>Mon, 08 Jun 2026 06:00:00 +0900</pubDate>
-      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-08.mp3" length="8156880" type="audio/mpeg"/>
-      <guid isPermaLink="false">2026-06-08</guid>
-      <itunes:duration>22:39</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
