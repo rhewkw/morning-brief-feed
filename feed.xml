@@ -14,6 +14,16 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>[아침] 美·이란 재충돌에 코스피 4% 급락 6562선, 롯데렌탈 매각 공정위 승인</title>
+      <description>미국-이란 무력충돌 재점화로 국제유가·미 국채금리 급등, 코스피 3.99% 급락 6,562선 마감. 롯데렌탈 매각 공정위 최종 승인(1조3105억원)·골프존카운티 등 M&amp;A 파이프라인 활발. 8월 소비자물가 3.1% 재진입, 네오사피엔스 등 IPO 수요예측 진행중.</description>
+      <itunes:summary>미국-이란 무력충돌 재점화로 국제유가·미 국채금리 급등, 코스피 3.99% 급락 6,562선 마감. 롯데렌탈 매각 공정위 최종 승인(1조3105억원)·골프존카운티 등 M&amp;A 파이프라인 활발. 8월 소비자물가 3.1% 재진입, 네오사피엔스 등 IPO 수요예측 진행중.</itunes:summary>
+      <pubDate>Thu, 03 Sep 2026 06:30:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-09-03.mp3" length="2645952" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-03</guid>
+      <itunes:duration>07:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>[아침] 美·이란 호르무즈 재충돌에 유가·금리 급등, 코스피는 자사주로 6835 사수</title>
       <description>미국-이란 무력충돌 재점화로 국제유가·미 국채금리 급등, 다우·나스닥 동반 하락. 코스피는 삼성전자·SK하이닉스 자사주 매입 힘으로 하락분 만회하며 6,835선 방어, 코스닥은 이차전지·바이오 차익매물에 1.56% 하락. SK실트론 2.3조원 두산 매각·롯데렌탈 TPG 매각 공정위 승인 등 M&amp;A 빅딜도 잇따랐습니다.</description>
       <itunes:summary>미국-이란 무력충돌 재점화로 국제유가·미 국채금리 급등, 다우·나스닥 동반 하락. 코스피는 삼성전자·SK하이닉스 자사주 매입 힘으로 하락분 만회하며 6,835선 방어, 코스닥은 이차전지·바이오 차익매물에 1.56% 하락. SK실트론 2.3조원 두산 매각·롯데렌탈 TPG 매각 공정위 승인 등 M&amp;A 빅딜도 잇따랐습니다.</itunes:summary>
@@ -601,16 +611,6 @@
       <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-09.mp3" length="4306464" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-06-09</guid>
       <itunes:duration>11:58</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>[마감] 검은 월요일 — 코스피 -8.3%·코스닥 -9%·서킷브레이커</title>
-      <description>글로벌 반도체 투매+금리 우려에 코스피 -8.29%·코스닥 -9.08%, 양대 서킷브레이커 발동. 외국인 매도·기관 2조 순매수. 젠슨황 방한·추경. CPI 6/10 분수령. 약 8분.</description>
-      <itunes:summary>글로벌 반도체 투매+금리 우려에 코스피 -8.29%·코스닥 -9.08%, 양대 서킷브레이커 발동. 외국인 매도·기관 2조 순매수. 젠슨황 방한·추경. CPI 6/10 분수령. 약 8분.</itunes:summary>
-      <pubDate>Mon, 08 Jun 2026 16:00:00 +0900</pubDate>
-      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-08-pm.mp3" length="2944656" type="audio/mpeg"/>
-      <guid isPermaLink="false">2026-06-08-pm</guid>
-      <itunes:duration>08:11</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
