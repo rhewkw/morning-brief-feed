@@ -14,6 +14,16 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>[아침] 美 8월 고용 서프라이즈에 국채금리 급등, 코스피는 외국인·기관 매수로 6,687 반등·코스닥 800선 탈환</title>
+      <description>미국 8월 비농업 고용 16.2만명 서프라이즈에 국채금리 급등, 뉴욕 3대지수는 소폭 조정. 코스피는 반도체 대형주·6거래일만의 외국인·기관 동반 매수로 1.64% 오른 6,687, 코스닥은 2.95% 급등한 813으로 800선 탈환. 롯데렌탈 매각 공정위 승인·네오사피엔스 등 코스닥 IPO 10곳 수요예측.</description>
+      <itunes:summary>미국 8월 비농업 고용 16.2만명 서프라이즈에 국채금리 급등, 뉴욕 3대지수는 소폭 조정. 코스피는 반도체 대형주·6거래일만의 외국인·기관 동반 매수로 1.64% 오른 6,687, 코스닥은 2.95% 급등한 813으로 800선 탈환. 롯데렌탈 매각 공정위 승인·네오사피엔스 등 코스닥 IPO 10곳 수요예측.</itunes:summary>
+      <pubDate>Mon, 07 Sep 2026 06:30:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-09-07.mp3" length="2454240" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-07</guid>
+      <itunes:duration>06:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>[아침] 美 국채금리 2년10개월來 최고·유가 급등, 코스피 반등 6579·코스닥 800선 붕괴</title>
       <description>미국-이란 교전 재개로 국제유가 3일 연속 급등, 美 10년물 국채금리 2년10개월래 최고치. 코스피는 반도체 대형주 힘으로 6,579선 반등, 코스닥은 시총상위 약세에 800선 붕괴. 롯데렌탈 매각 공정위 최종 승인, 네오사피엔스·브릴스 등 IPO 수요예측 마감.</description>
       <itunes:summary>미국-이란 교전 재개로 국제유가 3일 연속 급등, 美 10년물 국채금리 2년10개월래 최고치. 코스피는 반도체 대형주 힘으로 6,579선 반등, 코스닥은 시총상위 약세에 800선 붕괴. 롯데렌탈 매각 공정위 최종 승인, 네오사피엔스·브릴스 등 IPO 수요예측 마감.</itunes:summary>
@@ -601,16 +611,6 @@
       <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-11.mp3" length="2989920" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-06-11</guid>
       <itunes:duration>08:18</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>[아침] 트럼프 이란 재공습 시사에 나스닥 급락, 코스피 8,000선 재탈환</title>
-      <description>나스닥 -1.7%·S&amp;P500 -0.26%: 트럼프 이란 재공습 시사로 기술·반도체 급락 | 코스피 검은 월요일 딛고 +8.18% 급반등, 8,096 마감 | 시진핑 방북·북중 정상회담(7년 만)</description>
-      <itunes:summary>나스닥 -1.7%·S&amp;P500 -0.26%: 트럼프 이란 재공습 시사로 기술·반도체 급락 | 코스피 검은 월요일 딛고 +8.18% 급반등, 8,096 마감 | 시진핑 방북·북중 정상회담(7년 만)</itunes:summary>
-      <pubDate>Wed, 10 Jun 2026 06:50:00 +0900</pubDate>
-      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-10.mp3" length="3979680" type="audio/mpeg"/>
-      <guid isPermaLink="false">2026-06-10</guid>
-      <itunes:duration>11:03</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
