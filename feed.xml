@@ -14,6 +14,16 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>[아침] 오픈AI &apos;아스트라&apos; 훈풍, 코스피 4.61% 급등 6995 마감…7000선 목전</title>
+      <description>오픈AI GPT-6 아스트라 공개에 AGI 기대 확산, 삼성전자·SK하이닉스 급등 이끌며 코스피 4.61% 급등 6,995 마감·코스닥 822. 지엔씨에너지 SK티엔에스 인수 컨소시엄 참여, 네오사피엔스 등 코스닥 IPO 청약 러시.</description>
+      <itunes:summary>오픈AI GPT-6 아스트라 공개에 AGI 기대 확산, 삼성전자·SK하이닉스 급등 이끌며 코스피 4.61% 급등 6,995 마감·코스닥 822. 지엔씨에너지 SK티엔에스 인수 컨소시엄 참여, 네오사피엔스 등 코스닥 IPO 청약 러시.</itunes:summary>
+      <pubDate>Tue, 08 Sep 2026 06:30:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-09-08.mp3" length="2429184" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-08</guid>
+      <itunes:duration>06:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>[아침] 美 8월 고용 서프라이즈에 국채금리 급등, 코스피는 외국인·기관 매수로 6,687 반등·코스닥 800선 탈환</title>
       <description>미국 8월 비농업 고용 16.2만명 서프라이즈에 국채금리 급등, 뉴욕 3대지수는 소폭 조정. 코스피는 반도체 대형주·6거래일만의 외국인·기관 동반 매수로 1.64% 오른 6,687, 코스닥은 2.95% 급등한 813으로 800선 탈환. 롯데렌탈 매각 공정위 승인·네오사피엔스 등 코스닥 IPO 10곳 수요예측.</description>
       <itunes:summary>미국 8월 비농업 고용 16.2만명 서프라이즈에 국채금리 급등, 뉴욕 3대지수는 소폭 조정. 코스피는 반도체 대형주·6거래일만의 외국인·기관 동반 매수로 1.64% 오른 6,687, 코스닥은 2.95% 급등한 813으로 800선 탈환. 롯데렌탈 매각 공정위 승인·네오사피엔스 등 코스닥 IPO 10곳 수요예측.</itunes:summary>
@@ -601,16 +611,6 @@
       <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-12.mp3" length="2433408" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-06-12</guid>
       <itunes:duration>06:46</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>[아침] 이란 재공격 위협에 미 증시·코스피 동반 급락, 방첩사 해체</title>
-      <description>트럼프 이란 추가 타격 위협으로 다우 -953p·코스피 -4.52% 폭락, SK하이닉스 -9.9% 쇼크. 방첩사 49년 만에 해체, 이재명 2기 인선 착수. 스트라드비젼·빅웨이브로보틱스 IPO 수요예측 진행 중.</description>
-      <itunes:summary>트럼프 이란 추가 타격 위협으로 다우 -953p·코스피 -4.52% 폭락, SK하이닉스 -9.9% 쇼크. 방첩사 49년 만에 해체, 이재명 2기 인선 착수. 스트라드비젼·빅웨이브로보틱스 IPO 수요예측 진행 중.</itunes:summary>
-      <pubDate>Thu, 11 Jun 2026 06:50:00 +0900</pubDate>
-      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-11.mp3" length="2989920" type="audio/mpeg"/>
-      <guid isPermaLink="false">2026-06-11</guid>
-      <itunes:duration>08:18</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
