@@ -17,6 +17,7 @@
     "format": "audio-24khz-48kbitrate-mono-mp3",
     "openaiModel": "tts-1",
     "openaiVoice": "nova",
-    "googleVoice": "ko-KR-Chirp3-HD-Leda"
+    "googleVoice": "ko-KR-Chirp3-HD-Leda",
+    "gtranslateTempo": 1.8
   }
 }
