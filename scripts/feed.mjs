@@ -117,9 +117,24 @@ ${items}
 `;
 }
 
-// 48kbps CBR 기준 길이 추정 → "MM:SS"
-function estimateDuration(bytes) {
-  const sec = Math.round((bytes * 8) / 48000);
+// MP3 첫 프레임 헤더에서 실제 비트레이트를 읽는다(백엔드마다 48/64kbps로 다름).
+// 헤더를 못 찾으면 기존 가정값 48kbps로 되돌린다.
+function readBitrate(buf) {
+  const MPEG1 = [0, 32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256, 320, 0];
+  const MPEG2 = [0, 8, 16, 24, 32, 40, 48, 56, 64, 80, 96, 112, 128, 144, 160, 0];
+  for (let i = 0; i < Math.min(buf.length - 3, 8192); i++) {
+    if (buf[i] !== 0xff || (buf[i + 1] & 0xe0) !== 0xe0) continue;
+    const isMpeg1 = ((buf[i + 1] >> 3) & 3) === 3;
+    const layer3 = ((buf[i + 1] >> 1) & 3) === 1;
+    const kbps = (isMpeg1 ? MPEG1 : MPEG2)[(buf[i + 2] >> 4) & 0xf];
+    if (layer3 && kbps && ((buf[i + 2] >> 2) & 3) !== 3) return kbps * 1000;
+  }
+  return 48000;
+}
+
+// CBR 기준 길이 추정 → "MM:SS"
+function estimateDuration(bytes, bitrate = 48000) {
+  const sec = Math.round((bytes * 8) / bitrate);
   return `${String(Math.floor(sec / 60)).padStart(2, "0")}:${String(sec % 60).padStart(2, "0")}`;
 }
 
@@ -171,6 +186,7 @@ function main() {
   const dest = join(epDir, fileName);
   copyFileSync(resolve(args.mp3), dest);
   const size = statSync(dest).size;
+  const bitrate = readBitrate(readFileSync(dest).subarray(0, 8192));
 
   // 2) episodes.json 갱신
   const metaPath = join(pubdir, "episodes.json");
@@ -188,7 +204,7 @@ function main() {
     title: args.title || `${date} 브리핑`,
     desc: args.desc || "맞춤형 브리핑",
     size,
-    duration: estimateDuration(size),
+    duration: estimateDuration(size, bitrate),
   });
   // 날짜+시간 기준 최신순 정렬
   episodes.sort((a, b) => {
