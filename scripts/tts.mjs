@@ -23,6 +23,7 @@ import {
 import { dirname, resolve, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { tmpdir } from "node:os";
+import { execFileSync } from "node:child_process";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
@@ -31,6 +32,8 @@ const GOOGLE_KEY = process.env.GOOGLE_TTS_API_KEY;
 const OPENAI_KEY = process.env.OPENAI_API_KEY;
 const AZURE_KEY = process.env.AZURE_SPEECH_KEY;
 const AZURE_REGION = process.env.AZURE_SPEECH_REGION || "koreacentral";
+// TTS_BACKEND=gtranslate 로 무료 백엔드를 강제 지정할 수 있다.
+const BACKEND_OVERRIDE = (process.env.TTS_BACKEND || "").trim().toLowerCase();
 
 // "+10%" / "0.9" 등을 OpenAI speed(0.25~4.0)로 변환
 function parseRateToSpeed(rate) {
@@ -202,6 +205,134 @@ async function synthGoogle(text, audio) {
   throw lastErr;
 }
 
+// ---- Google 번역 TTS 백엔드 (무료·API 키 불필요) -------------------------
+// 키·결제·도메인 허용 설정이 전혀 필요 없다(translate.googleapis.com 은 기본 허용).
+// ⚠️ 요청당 약 200자 한도 → GTRANS_MAX_CHARS 기준으로 잘게 나눠 순차 합성한다.
+const GTRANS_MAX_CHARS = 180;
+
+async function synthGoogleTranslate(text, attempt = 1) {
+  const url =
+    `https://translate.googleapis.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ko` +
+    `&q=${encodeURIComponent(text)}&textlen=${text.length}`;
+  try {
+    const res = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0" } });
+    if (!res.ok) throw new Error(`translate_tts HTTP ${res.status}`);
+    const buf = Buffer.from(await res.arrayBuffer());
+    if (buf.length < 1000) throw new Error("빈 오디오");
+    return buf;
+  } catch (e) {
+    if (attempt < 3) {
+      await new Promise((r) => setTimeout(r, 700 * attempt));
+      return synthGoogleTranslate(text, attempt + 1);
+    }
+    throw e;
+  }
+}
+
+// 번역 TTS 음성은 낭독 속도가 느려(대본 5,500자에 약 16분) 그대로 쓰면 목표 8분을
+// 크게 넘는다. ffmpeg atempo 로 음정을 유지한 채 속도만 올린다. ffmpeg 이 없으면
+// 배속을 건너뛰고 원본을 그대로 내보낸다(오디오가 없는 것보다는 낫다).
+function findFfmpeg() {
+  const candidates = [
+    process.env.FFMPEG_PATH,
+    ...(() => {
+      try {
+        return [execFileSync("which", ["ffmpeg"], { encoding: "utf-8" }).trim()];
+      } catch {
+        return [];
+      }
+    })(),
+    ...(() => {
+      try {
+        const root = execFileSync("npm", ["root", "-g"], { encoding: "utf-8" }).trim();
+        return [join(root, "ffmpeg-static", "ffmpeg")];
+      } catch {
+        return [];
+      }
+    })(),
+    resolve(ROOT, "node_modules", "ffmpeg-static", "ffmpeg"),
+  ];
+  return candidates.find((p) => p && existsSync(p)) || null;
+}
+
+function speedUp(buf, tempo) {
+  if (!(tempo > 1)) return buf;
+  const ff = findFfmpeg();
+  if (!ff) {
+    console.warn(`⚠️ ffmpeg 을 찾지 못해 ${tempo}배속을 건너뜁니다(원본 속도로 저장).`);
+    console.warn(`   설치: npm install -g ffmpeg-static`);
+    return buf;
+  }
+  const tmpIn = join(tmpdir(), `mn-tempo-in-${process.pid}.mp3`);
+  const tmpOut = join(tmpdir(), `mn-tempo-out-${process.pid}.mp3`);
+  try {
+    writeFileSync(tmpIn, buf);
+    // atempo 는 한 번에 0.5~2.0 배만 지원 → 범위를 넘으면 여러 단계로 나눈다.
+    const stages = [];
+    let left = tempo;
+    while (left > 2) {
+      stages.push(2);
+      left /= 2;
+    }
+    stages.push(left);
+    const filter = stages.map((s) => `atempo=${s.toFixed(4)}`).join(",");
+    execFileSync(
+      ff,
+      ["-y", "-loglevel", "error", "-i", tmpIn, "-filter:a", filter,
+       "-b:a", "64k", "-ar", "24000", "-ac", "1", tmpOut],
+      { stdio: ["ignore", "ignore", "pipe"] }
+    );
+    return readFileSync(tmpOut);
+  } finally {
+    for (const p of [tmpIn, tmpOut]) {
+      try { if (existsSync(p)) rmSync(p); } catch {}
+    }
+  }
+}
+
+// 글자 수 기준 분할: 문단 → 문장 → 쉼표/공백 순으로 끊어 문장 중간이 잘리지 않게 한다.
+function chunkByChars(raw, maxChars) {
+  const paragraphs = raw
+    .replace(/\r\n/g, "\n")
+    .split(/\n{2,}/)
+    .map((p) => p.replace(/\n+/g, " ").trim())
+    .filter(Boolean);
+
+  const pieces = [];
+  for (const para of paragraphs) {
+    for (const sent of splitSentences(para)) {
+      if (sent.length <= maxChars) {
+        pieces.push(sent);
+        continue;
+      }
+      let buf = "";
+      for (const part of sent.split(/(?<=[,·])\s*/)) {
+        for (const word of part.length <= maxChars ? [part] : part.split(/\s+/)) {
+          if (!buf) buf = word;
+          else if ((buf + " " + word).length > maxChars) {
+            pieces.push(buf);
+            buf = word;
+          } else buf += " " + word;
+        }
+      }
+      if (buf) pieces.push(buf);
+    }
+  }
+
+  // 인접 조각을 한도 이하로 다시 합쳐 요청 수를 줄인다.
+  const chunks = [];
+  let buf = "";
+  for (const p of pieces) {
+    if (!buf) buf = p;
+    else if ((buf + " " + p).length > maxChars) {
+      chunks.push(buf);
+      buf = p;
+    } else buf += " " + p;
+  }
+  if (buf) chunks.push(buf);
+  return chunks;
+}
+
 // ---- OpenAI TTS 백엔드 ---------------------------------------------------
 async function synthOpenAI(text, audio, attempt = 1) {
   const model = audio.openaiModel || "tts-1";
@@ -266,62 +397,87 @@ async function main() {
     process.exit(1);
   }
 
-  const backend = GOOGLE_KEY
-    ? "Google Cloud TTS"
-    : OPENAI_KEY
-    ? "OpenAI"
-    : AZURE_KEY
-    ? "Azure Speech"
-    : "node-edge-tts(무료)";
-  const voiceLabel = GOOGLE_KEY
-    ? audio.googleVoice || "ko-KR-Chirp3-HD-Leda"
-    : OPENAI_KEY
-    ? audio.openaiVoice || "nova"
-    : audio.voice || "ko-KR-SunHiNeural";
-  const chunks = chunkScript(raw);
-  console.log(
-    `백엔드: ${backend} | 음성: ${voiceLabel} | 청크 ${chunks.length}개 | 총 ${raw.length}자`
-  );
+  const pick =
+    BACKEND_OVERRIDE ||
+    (GOOGLE_KEY ? "google" : OPENAI_KEY ? "openai" : AZURE_KEY ? "azure" : "gtranslate");
 
-  // edge 백엔드는 인스턴스 1개 재사용 (로컬 무료 전용 → 필요할 때만 동적 import)
-  let edge = null;
-  if (!AZURE_KEY && !OPENAI_KEY && !GOOGLE_KEY) {
-    const { EdgeTTS } = await import("node-edge-tts");
-    edge = new EdgeTTS({
-      voice: audio.voice || "ko-KR-SunHiNeural",
-      lang: "ko-KR",
-      outputFormat: audio.format || "audio-24khz-48kbitrate-mono-mp3",
-      rate: audio.rate || "default",
-      pitch: audio.pitch || "default",
-      volume: audio.volume || "default",
-      timeout: 60000,
-    });
-  }
+  // 백엔드별 라벨·청크 방식. gtranslate 만 글자 수(약 200자) 한도라 따로 나눈다.
+  const plans = {
+    google: { label: "Google Cloud TTS", voice: audio.googleVoice || "ko-KR-Chirp3-HD-Leda" },
+    openai: { label: "OpenAI", voice: audio.openaiVoice || "nova" },
+    azure: { label: "Azure Speech", voice: audio.voice || "ko-KR-SunHiNeural" },
+    edge: { label: "node-edge-tts(무료)", voice: audio.voice || "ko-KR-SunHiNeural" },
+    gtranslate: { label: "Google 번역 TTS(무료·무키)", voice: "ko (translate)" },
+  };
 
-  const stamp = process.pid + "-" + chunks.length;
-  const buffers = [];
-  for (let i = 0; i < chunks.length; i++) {
-    process.stdout.write(`  합성 ${i + 1}/${chunks.length} ...`);
-    let buf;
-    if (GOOGLE_KEY) {
-      buf = await synthGoogle(chunks[i], audio);
-    } else if (OPENAI_KEY) {
-      buf = await synthOpenAI(chunks[i], audio);
-    } else if (AZURE_KEY) {
-      buf = await synthAzure(chunks[i], audio);
-    } else {
-      const tmpPath = join(tmpdir(), `mn-tts-${stamp}-${i}.mp3`);
-      buf = await synthEdge(edge, chunks[i], tmpPath);
+  async function synthesizeAll(name) {
+    const plan = plans[name];
+    if (!plan) throw new Error(`알 수 없는 백엔드: ${name}`);
+    const chunks =
+      name === "gtranslate" ? chunkByChars(raw, GTRANS_MAX_CHARS) : chunkScript(raw);
+    console.log(
+      `백엔드: ${plan.label} | 음성: ${plan.voice} | 청크 ${chunks.length}개 | 총 ${raw.length}자`
+    );
+
+    // edge 백엔드는 인스턴스 1개 재사용 (로컬 무료 전용 → 필요할 때만 동적 import)
+    let edge = null;
+    if (name === "edge") {
+      const { EdgeTTS } = await import("node-edge-tts");
+      edge = new EdgeTTS({
+        voice: audio.voice || "ko-KR-SunHiNeural",
+        lang: "ko-KR",
+        outputFormat: audio.format || "audio-24khz-48kbitrate-mono-mp3",
+        rate: audio.rate || "default",
+        pitch: audio.pitch || "default",
+        volume: audio.volume || "default",
+        timeout: 60000,
+      });
     }
-    buffers.push(buf);
-    console.log(` ${(buf.length / 1024).toFixed(0)}KB`);
+
+    const stamp = process.pid + "-" + chunks.length;
+    const buffers = [];
+    for (let i = 0; i < chunks.length; i++) {
+      process.stdout.write(`  합성 ${i + 1}/${chunks.length} ...`);
+      let buf;
+      if (name === "google") buf = await synthGoogle(chunks[i], audio);
+      else if (name === "openai") buf = await synthOpenAI(chunks[i], audio);
+      else if (name === "azure") buf = await synthAzure(chunks[i], audio);
+      else if (name === "gtranslate") buf = await synthGoogleTranslate(chunks[i]);
+      else buf = await synthEdge(edge, chunks[i], join(tmpdir(), `mn-tts-${stamp}-${i}.mp3`));
+      buffers.push(buf);
+      console.log(` ${(buf.length / 1024).toFixed(0)}KB`);
+    }
+    return Buffer.concat(buffers);
   }
 
-  const final = Buffer.concat(buffers);
+  // 유료 백엔드가 결제·차단 등으로 실패하면 무료 백엔드로 자동 전환한다.
+  // (브리핑이 오디오 없이 나가는 것보다 음질을 양보하는 편이 낫다)
+  let final, used = pick;
+  try {
+    final = await synthesizeAll(pick);
+  } catch (e) {
+    if (pick === "gtranslate") throw e;
+    console.warn(`\n⚠️ ${plans[pick].label} 실패: ${e?.message || e}`);
+    console.warn(`   → 무료 백엔드(Google 번역 TTS)로 자동 전환합니다.\n`);
+    used = "gtranslate";
+    final = await synthesizeAll(used);
+  }
+
+  // 번역 TTS 로 만든 오디오만 배속 보정한다(유료 백엔드는 rate 설정으로 이미 조절됨).
+  if (used === "gtranslate") {
+    const tempo = Number(process.env.TTS_TEMPO || audio.gtranslateTempo || 1.8);
+    if (tempo > 1) {
+      const before = final.length;
+      final = speedUp(final, tempo);
+      if (final.length !== before) console.log(`\n${tempo}배속 적용 완료`);
+    }
+  }
+
   if (!existsSync(dirname(outPath))) mkdirSync(dirname(outPath), { recursive: true });
   writeFileSync(outPath, final);
 
-  const approxSec = Math.round((final.length * 8) / 48000);
+  // translate_tts 출력은 64kbps, 나머지 백엔드는 48kbps 기준
+  const approxSec = Math.round((final.length * 8) / (used === "gtranslate" ? 64000 : 48000));
   console.log(
     `\n완료: ${outPath}\n크기 ${(final.length / 1024 / 1024).toFixed(2)}MB · 약 ${Math.floor(
       approxSec / 60
