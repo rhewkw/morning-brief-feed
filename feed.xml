@@ -14,6 +14,16 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>[아침] 코스피 33거래일만에 7000선 탈환 7051…범한퓨얼셀 상한가, 롯데손보 매각전 재점화</title>
+      <description>중동 리스크로 국제유가 100달러 돌파·뉴욕증시 3거래일 하락 속 코스피는 반도체 강세로 33거래일만에 7000선 회복. 범한퓨얼셀 상한가·롯데손보 공개매각 전환, 이번주 아이피오 슈퍼먼스로 네오사피엔스 등 청약 몰려.</description>
+      <itunes:summary>중동 리스크로 국제유가 100달러 돌파·뉴욕증시 3거래일 하락 속 코스피는 반도체 강세로 33거래일만에 7000선 회복. 범한퓨얼셀 상한가·롯데손보 공개매각 전환, 이번주 아이피오 슈퍼먼스로 네오사피엔스 등 청약 몰려.</itunes:summary>
+      <pubDate>Thu, 10 Sep 2026 06:30:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-09-10.mp3" length="3807404" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-10</guid>
+      <itunes:duration>07:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>[아침] 오픈AI &apos;아스트라&apos; 훈풍, 코스피 4.61% 급등 6995 마감…7000선 목전</title>
       <description>오픈AI GPT-6 아스트라 공개에 AGI 기대 확산, 삼성전자·SK하이닉스 급등 이끌며 코스피 4.61% 급등 6,995 마감·코스닥 822. 지엔씨에너지 SK티엔에스 인수 컨소시엄 참여, 네오사피엔스 등 코스닥 IPO 청약 러시.</description>
       <itunes:summary>오픈AI GPT-6 아스트라 공개에 AGI 기대 확산, 삼성전자·SK하이닉스 급등 이끌며 코스피 4.61% 급등 6,995 마감·코스닥 822. 지엔씨에너지 SK티엔에스 인수 컨소시엄 참여, 네오사피엔스 등 코스닥 IPO 청약 러시.</itunes:summary>
@@ -601,16 +611,6 @@
       <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-15.mp3" length="4914576" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-06-15</guid>
       <itunes:duration>13:39</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>[아침] 트럼프 이란 공습 취소·협상 타결에 뉴욕 급등, 유가 4% 폭락</title>
-      <description>트럼프 대통령 이란 공습 취소·협상 타결 선언으로 다우 +930pt 급등. 오월 미국 소비자물가 +4.2% 에너지 급등 주도, 다음주 연준 FOMC 금리 동결 예상. 코스피 어제 장중 7400 붕괴 후 반등 +0.43%, 오늘 강세 개장 기대.</description>
-      <itunes:summary>트럼프 대통령 이란 공습 취소·협상 타결 선언으로 다우 +930pt 급등. 오월 미국 소비자물가 +4.2% 에너지 급등 주도, 다음주 연준 FOMC 금리 동결 예상. 코스피 어제 장중 7400 붕괴 후 반등 +0.43%, 오늘 강세 개장 기대.</itunes:summary>
-      <pubDate>Fri, 12 Jun 2026 06:50:00 +0900</pubDate>
-      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-12.mp3" length="2433408" type="audio/mpeg"/>
-      <guid isPermaLink="false">2026-06-12</guid>
-      <itunes:duration>06:46</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
