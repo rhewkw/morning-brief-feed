@@ -14,6 +14,16 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>[아침] 美 국채 10년물 5%대 육박·중동 확전 우려, 코스피 7000선 재이탈 6909 마감</title>
+      <description>10년물 국채금리 5%선 근접·유가 100달러 고공행진 속 뉴욕 3대지수 반등, 코스피는 리밸런싱 반등분 반납하며 6909 마감(-1.76%). 롯데손보 공개매각 이달 말 공고 준비, 네오사피엔스 공모가 1만원 확정 후 9/21 코스닥 상장 예정.</description>
+      <itunes:summary>10년물 국채금리 5%선 근접·유가 100달러 고공행진 속 뉴욕 3대지수 반등, 코스피는 리밸런싱 반등분 반납하며 6909 마감(-1.76%). 롯데손보 공개매각 이달 말 공고 준비, 네오사피엔스 공모가 1만원 확정 후 9/21 코스닥 상장 예정.</itunes:summary>
+      <pubDate>Mon, 14 Sep 2026 06:30:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-09-14.mp3" length="4045484" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-14</guid>
+      <itunes:duration>08:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>[아침] 美 국채 30년물 금리 19년래 최고·오늘밤 8월 CPI 최대 변수, 코스피 리밸런싱 속 7000선 방어</title>
       <description>호르무즈 유조선 보복전에 美 장기금리 19년래 최고·유가 고공행진, 뉴욕증시 4거래일 연속 하락. 코스피200 리밸런싱·선물옵션 만기 겹쳐 장중 6900선까지 밀렸다 7033 방어, 코스닥은 반등해 837. 롯데손보 공개매각가 줄다리기, 네오사피엔스 등 IPO 슈퍼먼스 계속.</description>
       <itunes:summary>호르무즈 유조선 보복전에 美 장기금리 19년래 최고·유가 고공행진, 뉴욕증시 4거래일 연속 하락. 코스피200 리밸런싱·선물옵션 만기 겹쳐 장중 6900선까지 밀렸다 7033 방어, 코스닥은 반등해 837. 롯데손보 공개매각가 줄다리기, 네오사피엔스 등 IPO 슈퍼먼스 계속.</itunes:summary>
@@ -601,16 +611,6 @@
       <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-17.mp3" length="2428800" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-06-17</guid>
       <itunes:duration>06:45</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>[아침] 미-이란 평화합의, 나스닥 3% 급등·유가 급락</title>
-      <description>미국과 이란이 14개항 평화 기본합의를 발표, 호르무즈 해협 재개통 기대에 나스닥 3% 급등·유가 5% 이상 급락. SpaceX IPO 이틀째 시총 2.2조 달러 돌파, 반도체(MU +8.7%, AMD +7.5%) 주도 랠리. 국내 SK하이닉스 1Q 영업이익 37.6조(+405%) 사상 최대, 코스피 +1% 5350선 마감.</description>
-      <itunes:summary>미국과 이란이 14개항 평화 기본합의를 발표, 호르무즈 해협 재개통 기대에 나스닥 3% 급등·유가 5% 이상 급락. SpaceX IPO 이틀째 시총 2.2조 달러 돌파, 반도체(MU +8.7%, AMD +7.5%) 주도 랠리. 국내 SK하이닉스 1Q 영업이익 37.6조(+405%) 사상 최대, 코스피 +1% 5350선 마감.</itunes:summary>
-      <pubDate>Tue, 16 Jun 2026 06:50:00 +0900</pubDate>
-      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-16.mp3" length="3908160" type="audio/mpeg"/>
-      <guid isPermaLink="false">2026-06-16</guid>
-      <itunes:duration>10:51</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
