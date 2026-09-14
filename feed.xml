@@ -14,6 +14,16 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>[아침] AI 속도조절론·중동發 유가 급등 겹악재, 코스피 3.26%↓ 6684 마감·반도체 투톱 급락</title>
+      <description>AI 업계 속도조절론과 호르무즈발 유가 급등에 뉴욕 3대지수 하락, 국내는 삼성전자·SK하이닉스 동반 급락 속 코스피 3.26% 밀린 6684·코스닥 806 마감. 롯데손보 공개매각 절차 착수, 빅웨이브로보틱스 등 코스닥 IPO 슈퍼위크 진행중.</description>
+      <itunes:summary>AI 업계 속도조절론과 호르무즈발 유가 급등에 뉴욕 3대지수 하락, 국내는 삼성전자·SK하이닉스 동반 급락 속 코스피 3.26% 밀린 6684·코스닥 806 마감. 롯데손보 공개매각 절차 착수, 빅웨이브로보틱스 등 코스닥 IPO 슈퍼위크 진행중.</itunes:summary>
+      <pubDate>Tue, 15 Sep 2026 06:30:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-09-15.mp3" length="4518572" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-15</guid>
+      <itunes:duration>09:25</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>[아침] 美 국채 10년물 5%대 육박·중동 확전 우려, 코스피 7000선 재이탈 6909 마감</title>
       <description>10년물 국채금리 5%선 근접·유가 100달러 고공행진 속 뉴욕 3대지수 반등, 코스피는 리밸런싱 반등분 반납하며 6909 마감(-1.76%). 롯데손보 공개매각 이달 말 공고 준비, 네오사피엔스 공모가 1만원 확정 후 9/21 코스닥 상장 예정.</description>
       <itunes:summary>10년물 국채금리 5%선 근접·유가 100달러 고공행진 속 뉴욕 3대지수 반등, 코스피는 리밸런싱 반등분 반납하며 6909 마감(-1.76%). 롯데손보 공개매각 이달 말 공고 준비, 네오사피엔스 공모가 1만원 확정 후 9/21 코스닥 상장 예정.</itunes:summary>
@@ -601,16 +611,6 @@
       <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-18.mp3" length="4372704" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-06-18</guid>
       <itunes:duration>12:09</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>[아침] SpaceX 커서 AI 600억불 인수·BoJ 금리인상, 코스피 8,726p 반도체 강세</title>
-      <description>1. SpaceX, Cursor AI를 600억달러에 전액주식교환 인수 — 나스닥 -1.15% vs 다우 +0.64%\n2. BoJ 기준금리 25bp 인상(1.00%), 케빈 워시 연준 의장 첫 FOMC 금리결정 오늘 발표\n3. 코스피 +2.11% 8,726p, SK하이닉스 사상최고가 243만원 / 코스닥 약세</description>
-      <itunes:summary>1. SpaceX, Cursor AI를 600억달러에 전액주식교환 인수 — 나스닥 -1.15% vs 다우 +0.64%\n2. BoJ 기준금리 25bp 인상(1.00%), 케빈 워시 연준 의장 첫 FOMC 금리결정 오늘 발표\n3. 코스피 +2.11% 8,726p, SK하이닉스 사상최고가 243만원 / 코스닥 약세</itunes:summary>
-      <pubDate>Wed, 17 Jun 2026 06:50:00 +0900</pubDate>
-      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-17.mp3" length="2428800" type="audio/mpeg"/>
-      <guid isPermaLink="false">2026-06-17</guid>
-      <itunes:duration>06:45</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
