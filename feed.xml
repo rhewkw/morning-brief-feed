@@ -14,6 +14,16 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>[아침] 美 국채금리 19년래 최고·유가 4개월래 최고 FOMC 앞두고, 코스피 4거래일째 하락 6627 마감</title>
+      <description>미 10년물 금리 2007년 이후 최고·유가 100달러 재돌파 속 FOMC 결과 대기, 코스피 6627·코스닥 812 마감. 진코스텍·멜콘 수요예측 개시, 네오사피엔스 9/21 상장 예정.</description>
+      <itunes:summary>미 10년물 금리 2007년 이후 최고·유가 100달러 재돌파 속 FOMC 결과 대기, 코스피 6627·코스닥 812 마감. 진코스텍·멜콘 수요예측 개시, 네오사피엔스 9/21 상장 예정.</itunes:summary>
+      <pubDate>Wed, 16 Sep 2026 06:30:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-09-16.mp3" length="4162988" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-16</guid>
+      <itunes:duration>08:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>[아침] AI 속도조절론·중동發 유가 급등 겹악재, 코스피 3.26%↓ 6684 마감·반도체 투톱 급락</title>
       <description>AI 업계 속도조절론과 호르무즈발 유가 급등에 뉴욕 3대지수 하락, 국내는 삼성전자·SK하이닉스 동반 급락 속 코스피 3.26% 밀린 6684·코스닥 806 마감. 롯데손보 공개매각 절차 착수, 빅웨이브로보틱스 등 코스닥 IPO 슈퍼위크 진행중.</description>
       <itunes:summary>AI 업계 속도조절론과 호르무즈발 유가 급등에 뉴욕 3대지수 하락, 국내는 삼성전자·SK하이닉스 동반 급락 속 코스피 3.26% 밀린 6684·코스닥 806 마감. 롯데손보 공개매각 절차 착수, 빅웨이브로보틱스 등 코스닥 IPO 슈퍼위크 진행중.</itunes:summary>
@@ -601,16 +611,6 @@
       <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-19.mp3" length="3035616" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-06-19</guid>
       <itunes:duration>08:26</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>[아침] 연준 금리 동결·매파 점도표에 미 증시 급락, 미·이란 MOU 서명 임박</title>
-      <description>① 연준 6월 FOMC 금리 동결, 위원 9/18명 연내 인상 점도표 → 나스닥·S&amp;P 1% 이상 급락 ② 미·이란 종전 MOU 금요일 서명 예정, WTI 5대 하락 ③ 국내 인터넷3사 신용대출 한도 일제 축소, 코스피 FOMC 결과 반영 출발</description>
-      <itunes:summary>① 연준 6월 FOMC 금리 동결, 위원 9/18명 연내 인상 점도표 → 나스닥·S&amp;P 1% 이상 급락 ② 미·이란 종전 MOU 금요일 서명 예정, WTI 5대 하락 ③ 국내 인터넷3사 신용대출 한도 일제 축소, 코스피 FOMC 결과 반영 출발</itunes:summary>
-      <pubDate>Thu, 18 Jun 2026 06:50:00 +0900</pubDate>
-      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-18.mp3" length="4372704" type="audio/mpeg"/>
-      <guid isPermaLink="false">2026-06-18</guid>
-      <itunes:duration>12:09</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
