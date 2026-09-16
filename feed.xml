@@ -14,6 +14,16 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>[아침] 연준, 기준금리 0.25%p 전격 인상… 뉴욕 급락 속 카카오게임즈-미투온 M&amp;A</title>
+      <description>미 연준, 매파적 0.25%p 금리인상에 뉴욕 3대 지수 급락. 카카오게임즈, 미투온 980억원에 인수. 코스닥 상한가 7종목(위성·바이오·K뷰티·M&amp;A 테마), 이번 주 공모주 슈퍼위크.</description>
+      <itunes:summary>미 연준, 매파적 0.25%p 금리인상에 뉴욕 3대 지수 급락. 카카오게임즈, 미투온 980억원에 인수. 코스닥 상한가 7종목(위성·바이오·K뷰티·M&amp;A 테마), 이번 주 공모주 슈퍼위크.</itunes:summary>
+      <pubDate>Thu, 17 Sep 2026 06:30:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-09-17.mp3" length="4156268" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-17</guid>
+      <itunes:duration>08:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>[아침] 美 국채금리 19년래 최고·유가 4개월래 최고 FOMC 앞두고, 코스피 4거래일째 하락 6627 마감</title>
       <description>미 10년물 금리 2007년 이후 최고·유가 100달러 재돌파 속 FOMC 결과 대기, 코스피 6627·코스닥 812 마감. 진코스텍·멜콘 수요예측 개시, 네오사피엔스 9/21 상장 예정.</description>
       <itunes:summary>미 10년물 금리 2007년 이후 최고·유가 100달러 재돌파 속 FOMC 결과 대기, 코스피 6627·코스닥 812 마감. 진코스텍·멜콘 수요예측 개시, 네오사피엔스 9/21 상장 예정.</itunes:summary>
@@ -601,16 +611,6 @@
       <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-22.mp3" length="2659968" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-06-22</guid>
       <itunes:duration>07:23</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>[아침] 연준 동결에 반도체 반등, 이란 봉쇄 해제로 증시 회복</title>
-      <description>연준, 케빈 워시 체제 첫 회의서 기준금리 동결 — 점도표 인하 시점 2027~2028년으로 후퇴. 이란 봉쇄 해제에 나스닥 +1.91%·반도체주 최대 +11% 급반등. 이재명 대통령 G7 포함 유럽 순방 귀국; 5월 수출 역대 최대 877.5억 달러(+53.2%).</description>
-      <itunes:summary>연준, 케빈 워시 체제 첫 회의서 기준금리 동결 — 점도표 인하 시점 2027~2028년으로 후퇴. 이란 봉쇄 해제에 나스닥 +1.91%·반도체주 최대 +11% 급반등. 이재명 대통령 G7 포함 유럽 순방 귀국; 5월 수출 역대 최대 877.5억 달러(+53.2%).</itunes:summary>
-      <pubDate>Fri, 19 Jun 2026 06:50:00 +0900</pubDate>
-      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-19.mp3" length="3035616" type="audio/mpeg"/>
-      <guid isPermaLink="false">2026-06-19</guid>
-      <itunes:duration>08:26</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
