@@ -14,6 +14,20 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>[아침] 코스피 7,000선 재탈환 1.65%↑, 네오사피엔스 상장 첫날 243%↑…추석 연휴 앞둔 마지막 거래주</title>
+      <description>삼성전자 4.98%↑ 견인 코스피 7,007.72·코스닥 836.27 5거래일 연속 상승, 시그네틱스·캔버스엔 상한가
+네오사피엔스 코스닥 상장 첫날 공모가 대비 243%↑, 카카오게임즈 미투온 980억 인수·맥쿼리 화장품 2사 3,000억 인수
+엘리스그룹·엠비디 등 IPO 슈퍼위크 계속…9/24~27 추석 연휴, 9/23(수) 연휴 전 마지막 거래일</description>
+      <itunes:summary>삼성전자 4.98%↑ 견인 코스피 7,007.72·코스닥 836.27 5거래일 연속 상승, 시그네틱스·캔버스엔 상한가
+네오사피엔스 코스닥 상장 첫날 공모가 대비 243%↑, 카카오게임즈 미투온 980억 인수·맥쿼리 화장품 2사 3,000억 인수
+엘리스그룹·엠비디 등 IPO 슈퍼위크 계속…9/24~27 추석 연휴, 9/23(수) 연휴 전 마지막 거래일</itunes:summary>
+      <pubDate>Tue, 22 Sep 2026 06:30:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-09-22.mp3" length="4277612" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-22</guid>
+      <itunes:duration>08:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>[아침] 코스피 2.66%↑ 6894 마감…반도체 랠리 속 IPO 슈퍼위크 마무리</title>
       <description>뉴욕 3대지수 혼조 마감(다우↓·S&amp;P·나스닥↑), 코스피 6894.23·코스닥 827.12로 반등 마감
 네이버파이낸셜-두나무 20조 합병 공정위 심사 표류, 카카오게임즈 미투온 인수·맥쿼리 화장품 2사 인수
@@ -609,16 +623,6 @@
       <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-25.mp3" length="2640192" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-06-25</guid>
       <itunes:duration>07:20</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>[아침] BofA 3회 금리인상 충격, 코스피 10% 폭락·서킷브레이커 발동</title>
-      <description>뱅크오브아메리카(BofA)가 연내 금리 3회 인상 전망을 내놓으면서 나스닥·코스피 동반 급락. 코스피 -9.99% 역대급 폭락, 삼성전자·SK하이닉스 -12%+, 외국인 5.79조 원 순매도. MSCI 선진지수 편입 불발·레버리지 ETF 청산 삼중 악재. 오늘 반등 시도 중.</description>
-      <itunes:summary>뱅크오브아메리카(BofA)가 연내 금리 3회 인상 전망을 내놓으면서 나스닥·코스피 동반 급락. 코스피 -9.99% 역대급 폭락, 삼성전자·SK하이닉스 -12%+, 외국인 5.79조 원 순매도. MSCI 선진지수 편입 불발·레버리지 ETF 청산 삼중 악재. 오늘 반등 시도 중.</itunes:summary>
-      <pubDate>Wed, 24 Jun 2026 06:50:00 +0900</pubDate>
-      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-24.mp3" length="5973600" type="audio/mpeg"/>
-      <guid isPermaLink="false">2026-06-24</guid>
-      <itunes:duration>16:36</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
