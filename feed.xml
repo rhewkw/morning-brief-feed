@@ -14,6 +14,20 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>[아침] 코스피 7,017선 강보합 마감…추석 연휴 앞둔 마지막 거래일, 엘리스그룹 몸값 1조 수요예측</title>
+      <description>코스피 0.15%↑ 7,017.91 강보합(개장 2.20%↑ 후 상승폭 반납), 코스닥 0.23%↓ 834.38. PCB·AI서버기판 랠리(코리아써키트 +25.43%)·코스닥 상한가 6종목
+카카오게임즈 미투온 980억 인수, 네이버파이낸셜-두나무 기업결합 9월 심사 분수령, 롯데손보 9월말 공개매각 공고 예정
+엘리스그룹(몸값 1조) 오늘부터 수요예측, 엠비디 수요예측 진행중. 오늘이 추석 연휴(9/24~27) 앞둔 마지막 거래일, 28일 재개장</description>
+      <itunes:summary>코스피 0.15%↑ 7,017.91 강보합(개장 2.20%↑ 후 상승폭 반납), 코스닥 0.23%↓ 834.38. PCB·AI서버기판 랠리(코리아써키트 +25.43%)·코스닥 상한가 6종목
+카카오게임즈 미투온 980억 인수, 네이버파이낸셜-두나무 기업결합 9월 심사 분수령, 롯데손보 9월말 공개매각 공고 예정
+엘리스그룹(몸값 1조) 오늘부터 수요예측, 엠비디 수요예측 진행중. 오늘이 추석 연휴(9/24~27) 앞둔 마지막 거래일, 28일 재개장</itunes:summary>
+      <pubDate>Wed, 23 Sep 2026 06:30:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-09-23.mp3" length="4254572" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-23</guid>
+      <itunes:duration>08:52</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>[아침] 코스피 7,000선 재탈환 1.65%↑, 네오사피엔스 상장 첫날 243%↑…추석 연휴 앞둔 마지막 거래주</title>
       <description>삼성전자 4.98%↑ 견인 코스피 7,007.72·코스닥 836.27 5거래일 연속 상승, 시그네틱스·캔버스엔 상한가
 네오사피엔스 코스닥 상장 첫날 공모가 대비 243%↑, 카카오게임즈 미투온 980억 인수·맥쿼리 화장품 2사 3,000억 인수
@@ -613,16 +627,6 @@
       <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-30.mp3" length="6173856" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-06-30</guid>
       <itunes:duration>17:09</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>[아침] 마이크론 어닝 서프라이즈·코스피 반등, 오늘 밤 PCE 고비</title>
-      <description>마이크론 3Q EPS 이십오 달러로 예상치 이십사 퍼센트 상회, 데이터센터 매출 7배. 코스피 전일 서킷브레이커 폭락 후 삼성전자 자사주 매입에 삼 퍼센트 이상 반등. 오늘 밤 미 PCE 발표가 연준 금리 방향 분수령.</description>
-      <itunes:summary>마이크론 3Q EPS 이십오 달러로 예상치 이십사 퍼센트 상회, 데이터센터 매출 7배. 코스피 전일 서킷브레이커 폭락 후 삼성전자 자사주 매입에 삼 퍼센트 이상 반등. 오늘 밤 미 PCE 발표가 연준 금리 방향 분수령.</itunes:summary>
-      <pubDate>Thu, 25 Jun 2026 06:50:00 +0900</pubDate>
-      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-06-25.mp3" length="2640192" type="audio/mpeg"/>
-      <guid isPermaLink="false">2026-06-25</guid>
-      <itunes:duration>07:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
