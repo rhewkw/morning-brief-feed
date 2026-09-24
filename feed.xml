@@ -14,6 +14,16 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>[아침] 코스피 7,080선 최고치 유지 속 추석 연휴 이틀째…K2코리아그룹 네파 인수, 제이티비씨 매각 본격화</title>
+      <description>추석 연휴로 코스피·코스닥 휴장 지속(28일 재개장), 미중 정상회담 &apos;빈손&apos; 종료에 뉴욕 3대 지수 하락(S&amp;P -0.72%·나스닥 -0.84%)\nK2코리아그룹 네파 인수(MBK 엑시트), JTBC 매각 주관사 한영 선정·인가전 M&amp;A 본격화, 맥쿼리PE 화성코스메틱·나우코스 3000억 인수, 카카오게임즈 미투온 경영권 인수\n몸값 1조원 엘리스그룹 수요예측(~10/1), 엠비디 수요예측 진행중, 롯데손보 공개매각 준비</description>
+      <itunes:summary>추석 연휴로 코스피·코스닥 휴장 지속(28일 재개장), 미중 정상회담 &apos;빈손&apos; 종료에 뉴욕 3대 지수 하락(S&amp;P -0.72%·나스닥 -0.84%)\nK2코리아그룹 네파 인수(MBK 엑시트), JTBC 매각 주관사 한영 선정·인가전 M&amp;A 본격화, 맥쿼리PE 화성코스메틱·나우코스 3000억 인수, 카카오게임즈 미투온 경영권 인수\n몸값 1조원 엘리스그룹 수요예측(~10/1), 엠비디 수요예측 진행중, 롯데손보 공개매각 준비</itunes:summary>
+      <pubDate>Fri, 25 Sep 2026 06:30:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-09-25.mp3" length="4370540" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-25</guid>
+      <itunes:duration>09:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>[아침] 코스피 7,080선 최고치 마감 후 추석 연휴 돌입…K2코리아그룹 네파 인수, JTBC 매각 착수</title>
       <description>코스피 0.90%↑ 7,080.92 사상 최고권 마감(코스닥 1.21%↑ 844.48), 추석 연휴로 9/24~27 휴장·28일 재개장. 간밤 뉴욕은 10년물 금리 5.1%대 급등에 급락(S&amp;P -0.75%·나스닥 -1.1%)
 K2코리아그룹 네파 인수(MBK 엑시트), JTBC 매각 주관사 한영 선정, 롯데손보 9월말 공개매각 공고, 카카오게임즈 미투온 인수·맥쿼리 화장품 3000억 인수 진행
@@ -621,16 +631,6 @@ K2코리아그룹 네파 인수(MBK 엑시트), JTBC 매각 주관사 한영 선
       <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-07-02.mp3" length="6002880" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-07-02</guid>
       <itunes:duration>16:40</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>[아침] 다우·S&amp;P·나스닥 동반 &apos;최고의 반기&apos; 마감, 코스피 8,476 반등</title>
-      <description>미 증시, 상반기 마지막 거래일 다우 사상 최고가·S&amp;P·나스닥 2020년 이후 최대 분기 상승. 코스피는 서킷브레이커 두 차례 후 기관 매수로 0.97% 반등. 코스닥 신규상장 종목은 급등과 급락이 극명하게 엇갈림.</description>
-      <itunes:summary>미 증시, 상반기 마지막 거래일 다우 사상 최고가·S&amp;P·나스닥 2020년 이후 최대 분기 상승. 코스피는 서킷브레이커 두 차례 후 기관 매수로 0.97% 반등. 코스닥 신규상장 종목은 급등과 급락이 극명하게 엇갈림.</itunes:summary>
-      <pubDate>Wed, 01 Jul 2026 06:50:00 +0900</pubDate>
-      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-07-01.mp3" length="5816448" type="audio/mpeg"/>
-      <guid isPermaLink="false">2026-07-01</guid>
-      <itunes:duration>16:09</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
