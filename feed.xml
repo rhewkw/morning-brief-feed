@@ -14,6 +14,16 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>[아침] 미 30년물 금리 24년 만에 최고, 코스피 외국인 2.9조 순매도</title>
+      <description>미 30년물 국채금리 5.6% 육박, 2002년 이후 최고. 코스피 6,870 마감·외국인 2.9조 순매도, 환율 1,356.7원. 중앙일보 M&amp;A 6곳 경쟁, 엠에스바이오·디티에스 수요예측 진행.</description>
+      <itunes:summary>미 30년물 국채금리 5.6% 육박, 2002년 이후 최고. 코스피 6,870 마감·외국인 2.9조 순매도, 환율 1,356.7원. 중앙일보 M&amp;A 6곳 경쟁, 엠에스바이오·디티에스 수요예측 진행.</itunes:summary>
+      <pubDate>Wed, 30 Sep 2026 06:30:00 +0900</pubDate>
+      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-09-30.mp3" length="2116460" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-09-30</guid>
+      <itunes:duration>04:25</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>[아침] 美 국채 10년물 5.22% 19년래 최고에 코스피 급락…JTBC 인가전 M&amp;A, 테일러메이드 실사, 엘리스그룹 수요예측 마감</title>
       <description>미 국채금리 급등에 코스피 6,889(-2.70%), 삼성전자·SK하이닉스 5%대 급락\nJTBC 인가 전 M&amp;A 절차, 테일러메이드 올드톰캐피털 우선협상 내정, 9월 수출 1000억달러 돌파 유력\n글로벌테크놀로지·빅웨이브로보틱스 오늘 상장, 엘리스그룹 수요예측 10/1 마감, 멜콘·진코스텍 청약</description>
       <itunes:summary>미 국채금리 급등에 코스피 6,889(-2.70%), 삼성전자·SK하이닉스 5%대 급락\nJTBC 인가 전 M&amp;A 절차, 테일러메이드 올드톰캐피털 우선협상 내정, 9월 수출 1000억달러 돌파 유력\n글로벌테크놀로지·빅웨이브로보틱스 오늘 상장, 엘리스그룹 수요예측 10/1 마감, 멜콘·진코스텍 청약</itunes:summary>
@@ -621,16 +631,6 @@ K2코리아그룹 네파 인수(MBK 엑시트), JTBC 매각 주관사 한영 선
       <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-07-07.mp3" length="5859840" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-07-07</guid>
       <itunes:duration>16:17</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>[아침] 다우 사상 최고치, 코스피는 브이자 급등락</title>
-      <description>다우 사상최고 vs 나스닥 반도체약세, 코스피 브이자 급등락(-7.89%→+5.76%), 연준 매파적 동결.</description>
-      <itunes:summary>다우 사상최고 vs 나스닥 반도체약세, 코스피 브이자 급등락(-7.89%→+5.76%), 연준 매파적 동결.</itunes:summary>
-      <pubDate>Mon, 06 Jul 2026 06:30:00 +0900</pubDate>
-      <enclosure url="https://rhewkw.github.io/morning-brief-feed/episodes/2026-07-06.mp3" length="6006720" type="audio/mpeg"/>
-      <guid isPermaLink="false">2026-07-06</guid>
-      <itunes:duration>16:41</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
